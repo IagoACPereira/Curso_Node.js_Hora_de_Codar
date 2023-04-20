@@ -1,0 +1,14 @@
+<h1>Só aqui você encontra os melhores preços! <span>Ajudamos você à acelerar a concretização deste sonho!</span></h1>
+<h2>Conheça alguns de nossos produtos: </h2>
+<nav>
+    {{#each carros}}
+        <a href="/{{this.marca}}-{{this.modelo}}">
+            <section>
+                <h2>{{this.marca}}</h2>
+                <h3>{{this.modelo}}</h3>
+                <img src="{{this.imagem}}" alt="Imagem {{this.marca}} {{this.modelo}}">
+                <h3 class="valor">R$ {{this.valor}}</h3>
+            </section>
+        </a>
+    {{/each}}
+</nav>

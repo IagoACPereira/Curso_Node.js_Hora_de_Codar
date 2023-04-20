@@ -1,0 +1,17 @@
+<h1>
+  Olá {{ user.name }} {{ user.surname }}, seja bem-vindo!
+</h1>
+{{#if approved}}
+    <p style="color: green;">
+        Seu acesso foi aprovado com sucesso!
+    </p>
+{{else}}
+    <p style="color: red;">
+        Acesso inesistente, favor criar uma conta!
+    </p>
+{{/if}}
+{{#if auth}}
+<p>
+  Você está autenticado no sistema, <a href="/dashboards">clique aqui</a> para acessar a área de membros
+</p>
+{{/if}}

@@ -1,0 +1,91 @@
+/*----------RESET----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*-------------------------*/
+header {
+    background-color: #eee;
+    padding: 5px;
+}
+
+header 
+h1 {
+    color: blue;
+    font-size: 26pt;
+}
+
+header 
+h1
+span {
+    color: #000;
+    font-size: 20pt;
+}
+main
+h1 {
+    margin: 20px 0; 
+}
+
+main
+h1
+span {
+    font-size: 16pt;
+    color: blue;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.carro
+img {
+    width: 600px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+nav
+section {
+    margin: 20px;
+    padding: 5px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #00000099;
+    cursor: pointer;
+}
+
+nav
+section:active {
+    box-shadow: none;
+}
+
+nav
+section
+.valor {
+    border-top: 2px solid #ddd;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: #eee;
+    padding: 5px;
+    margin-top: 20px;
+}
